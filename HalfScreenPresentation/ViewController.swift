@@ -53,6 +53,7 @@ class ViewController: UIViewController {
     func setupView() {
         view.backgroundColor = .systemBackground
     }
+    
     // 3 Add subviews and set constraints
     func setupConstraints() {
         view.addSubview(containerStackView)
@@ -69,8 +70,12 @@ class ViewController: UIViewController {
             registerButton.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
+    
     // 7 To be updated
     @objc func presentModalController() {
+        let vc = CustomModelViewController()
+        vc.modalPresentationStyle   = .overCurrentContext
+        self.present(vc, animated: false)
     }
 }
 

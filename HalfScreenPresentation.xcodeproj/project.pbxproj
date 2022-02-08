@@ -12,7 +12,7 @@
 		2C277F3E27AC797300641AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C277F3D27AC797300641AB9 /* ViewController.swift */; };
 		2C277F4327AC797500641AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C277F4227AC797500641AB9 /* Assets.xcassets */; };
 		2C277F4627AC797500641AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C277F4427AC797500641AB9 /* LaunchScreen.storyboard */; };
-		2C277F4E27AC806B00641AB9 /* CustomModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C277F4D27AC806B00641AB9 /* CustomModelViewController.swift */; };
+		2CA8CBDA27B08360000A9BD7 /* CustomModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8CBD927B08360000A9BD7 /* CustomModelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		2C277F4227AC797500641AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C277F4527AC797500641AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C277F4727AC797500641AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C277F4D27AC806B00641AB9 /* CustomModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelViewController.swift; sourceTree = "<group>"; };
+		2CA8CBD927B08360000A9BD7 /* CustomModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				2C277F3927AC797300641AB9 /* AppDelegate.swift */,
 				2C277F3B27AC797300641AB9 /* SceneDelegate.swift */,
-				2C277F4D27AC806B00641AB9 /* CustomModelViewController.swift */,
 				2C277F3D27AC797300641AB9 /* ViewController.swift */,
+				2CA8CBD927B08360000A9BD7 /* CustomModelViewController.swift */,
 				2C277F4227AC797500641AB9 /* Assets.xcassets */,
 				2C277F4427AC797500641AB9 /* LaunchScreen.storyboard */,
 				2C277F4727AC797500641AB9 /* Info.plist */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C277F3E27AC797300641AB9 /* ViewController.swift in Sources */,
-				2C277F4E27AC806B00641AB9 /* CustomModelViewController.swift in Sources */,
+				2CA8CBDA27B08360000A9BD7 /* CustomModelViewController.swift in Sources */,
 				2C277F3A27AC797300641AB9 /* AppDelegate.swift in Sources */,
 				2C277F3C27AC797300641AB9 /* SceneDelegate.swift in Sources */,
 			);
